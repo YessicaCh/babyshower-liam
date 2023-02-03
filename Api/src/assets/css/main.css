@@ -1,0 +1,139 @@
+del{
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px; 
+    color: black;
+}
+.headcont {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    height: 280px;
+    background: url(../img/f32.png),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,10) 30%);
+    /*-webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-90deg);*/
+  }
+.namebaby{
+    font-family: 'Dancing Script', cursive;
+    font-size: 68px;
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+#invitationCard{
+    background-color: rgb(255,112,40);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
+    /*background: url(img/dragon.png);*/
+}
+#birthday{
+    /*
+    font-family: 'Tangerine', serif;
+    font-size: 68px;
+    text-shadow: 4px 4px 4px #aaa;*/
+    background-color: rgb(255,112,40);/*219, 26, 26*/
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#birthday img{
+    position: relative;
+    margin-top: -50px;
+}
+#birthday .borderDate{
+    border-left-style: dashed;
+    border-right-style: dashed;
+}
+
+.regalos{
+    background: rgb(255,255,255);
+    background: url(img/gokuback.png);
+    background: url(img/esferas.png),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,10) 30%);
+    background-repeat: repeat-x;
+    background-size: 50%;
+    margin-top: -15px;
+}
+.ventanaDatos{
+    display:none;
+    background: linear-gradient(#e66465, #9198e5);/*rgb(255, 223, 40);*/
+}
+
+/*/.ventanaDatos .cardVentana {
+    background-color: red;
+    
+}*/
+.ventanaDatos .cardVentana img{
+    /*background-color: rgba(0,0,0,0);*/
+    /*background-color: transparent;
+    background-image: none;
+    opacity: 0.5;
+    background-size: cover, 0, contain;*/
+    mix-blend-mode: multiply;
+}
+
+
+#listContent{
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.box {
+    /* display: inline-block;
+    
+    background: red;
+    color: white; 
+    font-family: 'Puritan', sans-serif;
+    font-size: 20px;*/
+    max-width: 18rem;
+    display: inline-block;
+    background: #281a92;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    outline: none;
+    padding: 2px;
+    margin: 20px;
+
+    /* position: absolute; */
+  }
+  .box:hover, .box:focus {
+    background: #ef9e4edc;
+    color: #fff;
+  }
+  .box img{
+    position: relative;
+    margin-left: -40px;
+    margin-top: -40px;
+  }
+  
+
+
+  #separator-amiibos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-amiibos .content{
+    background: url(img/bg-esferas.png);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.cardContainer-img{
+    
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    background: url(img/biberon.jpg),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    
+}
+.footer-img{
+    width: 100%;
+    background-color: red;
+}
+
